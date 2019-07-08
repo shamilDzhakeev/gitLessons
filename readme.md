@@ -16,7 +16,9 @@
 [пример](http://example.com/ "Необязательная подсказка")
 
 Пример кода:
-```app.get('/array', function(req, res) {
+``` 
+js 
+app.get('/array', function(req, res) {
   const delay = Math.floor(Math.random() * 2e3 + 1e3);
   const array = generateArray(10);
 
