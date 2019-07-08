@@ -32,3 +32,11 @@ app.get('/array', function(req, res) {
   }, delay);
 });
 ```
+
+	```ruby
+	# This is some Ruby code!
+	```
+
+	```python
+	# This is some Python code!
+	```
