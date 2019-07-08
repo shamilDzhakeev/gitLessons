@@ -20,7 +20,7 @@
 app.get('/array', function(req, res) {
   const delay = Math.floor(Math.random() * 2e3 + 1e3);
   const array = generateArray(10);
-
+> This is a code annotation. It will appear in the area to the right, next to the code samples.
   setTimeout(function() {
     const error = requestCount % 3 === 0;
     const status = error ? 500 : 200;
@@ -33,8 +33,3 @@ app.get('/array', function(req, res) {
 });
 ```
 
-
-```python
-x=0
-# This is some Python code!
-```
